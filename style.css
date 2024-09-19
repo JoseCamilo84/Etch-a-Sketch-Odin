@@ -1,0 +1,25 @@
+:root {
+  --width-square: 16;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  width: 950px;
+  height: 950px;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+#container div {
+  border: 1px solid sienna;
+  flex: 1 1 calc(100% / var(--width-square));
+  height: calc(100% / var(--width-square));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -12,7 +12,7 @@
   width: 950px;
   height: 950px;
   flex-wrap: wrap;
-  background-color: aqua;
+  background-color: rgb(55, 55, 55);
 }
 
 #container div {

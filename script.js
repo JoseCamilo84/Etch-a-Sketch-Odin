@@ -2,11 +2,16 @@ const container = document.querySelector('#container');
 const button = document.querySelector('button');
 
 function createDiv() {
+  let opacityValue = 1;
   const div = document.createElement('div');
   container.appendChild(div);
   
   div.addEventListener('mouseover', (e) => {
     e.target.style.background = randomColor();
+    opacityValue = opacityValue - 0.10;
+    
+    if (opacityValue < 0) return;
+    e.target.style.opacity = opacityValue;
   });
 }
 

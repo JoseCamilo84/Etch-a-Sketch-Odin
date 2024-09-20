@@ -4,4 +4,4 @@
 - Este es el cuarto proyecto que realizo en Odin-Project y segundo en Javascript
 - El objetivo es afianzar los conocimientos de "Flexbox", y en Javascript funciones, "Event Listener", arrays y bucles.
 
-* Click al link: 
+* Click al link: https://josecamilo84.github.io/Etch-a-Sketch-Odin/
